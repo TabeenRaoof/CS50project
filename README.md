@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+# Tabeen Raoof Portfolio 
+<br>
 
-You can use the [editor on GitHub](https://github.com/TabeenRaoof/CS50project/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+**[Project 1: Readability](https://github.com/TabeenRaoof/CS50project/tree/main/portfolio/Readability)**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Classifies a piece of text (paragraph, etc.) into 16 grades based on its difficulty level
+- The program determines the difficulty level based on numbers of letters in each word, numbers of words and number of sentences in the text. 
+- It makes the computation using the Coleman-Liau index. 
 
-### Markdown
+Languages & Frameworks: Python
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![](/images/Readability.png)
+<br><br>
 
-```markdown
-Syntax highlighted code block
+**[Project 2: Stockbroker Simulator](https://github.com/TabeenRaoof/CS50project/tree/main/portfolio/Stockbroker)**
 
-# Header 1
-## Header 2
-### Header 3
+- Web application simulate an online stockbroker where users can open accounts and buy and sell stocks
+- The application shows a real time stock price using an API
+- Users cannot invest real money but each new user gets a virtual $10k to use for investment
 
-- Bulleted
-- List
+Languages & Frameworks: Python; Flask; SQL
 
-1. Numbered
-2. List
+![](/images/StockBroker.png)
+<br><br>
 
-**Bold** and _Italic_ and `Code` text
+**[Project 3: Investment Forecast](https://github.com/TabeenRaoof/CS50project/tree/main/portfolio/Investment%20Forecast)**
 
-[Link](url) and ![Image](src)
-```
+- Web application to forecast investment growth for a stock or asset 
+- It calculates the forecast based on historical values
+- The calculator makes very rough estimates and by no means accurate
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Languages & Frameworks: JavaScript; Flask; HTML; CSS
 
-### Jekyll Themes
+![](/images/InvestmentCalculator.png)
+<br><br>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TabeenRaoof/CS50project/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**[Project 4: Find the Thief](https://github.com/TabeenRaoof/CS50project/tree/main/portfolio/Find%20The%20Thief)**
+- This is a project to find the person that stole a duck (CS50’s duck to be specific)
+- The thief should be looked for using SQL to query through multiple tables of large and small datasets.
+- The queries used were from simple to more complex including nested queries, joining 2-3 tables etc.
 
-### Support or Contact
+Languages & Frameworks: SQL
+<br><br><br><br>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+**[Project 5: Breakeven Calculator](https://github.com/TabeenRaoof/CS50project/tree/main/portfolio/Breakeven%20Calculator)**
+- Web application to calculate a breakeven point for a product
+- The calculator makes use of multiple calculations based on user input of different costs and item price to  calculate the number of units to be sold to recoup all costs
+- This is the final project for the course
+
+Languages & Frameworks: Python; Flask; HTML; CSS
+
+![](/images/BreakEven_Calculator.png)
+
+<br><br>
