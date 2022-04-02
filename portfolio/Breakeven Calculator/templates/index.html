@@ -1,0 +1,64 @@
+{% extends "layout.html" %}
+
+
+
+{% block body %}
+
+
+    <h1 class="head">Breakeven Analysis Calculator</h1>
+    <br>
+
+    
+    <body>
+        <form class="form" action="/" method="post">
+
+            <span class="inputTitle" name="fix_cost">Set up Cost (fixed costs)</span>
+            <input autocomplete="off" autofocus placeholder="Fixed Costs" type="int" name="fixedCost">
+
+            <p class="error">{{ message1 }}</p>
+            <br>
+
+            <span class="inputTitle" name="item_cost">Cost Per Item</span>
+            <input autocomplete="off" autofocus placeholder="Item Cost" name="itemCost" type="int">
+            <br>
+            <span class="error">{{ message2 }}</span>
+            <br>
+
+            <span class="inputTitle" name="shipping_cost">Shipping Cost Per Item</span>
+            <input autocomplete="off" autofocus placeholder="Shipping Cost" name="shippingCost" type="int">
+            <br>
+            <span class="error">{{ message3 }}</span>
+            <br>
+
+            <span class="inputTitle" name="other_costs">Other Costs (marketing, etc.)</span>
+            <input autocomplete="off" autofocus placeholder="Other Costs" name="otherCosts" type="int">
+            <br>
+            <span class="error">{{ message4 }}</span>
+            <br>
+
+            <span class="inputTitle" name="sale_price">Sale Price</span>
+            <input autocomplete="off" autofocus placeholder="Sale Price" name="price" type="int">
+            <br>
+            <span class="error">{{ message5 }}</span>
+            <br>
+            <br>
+
+            <button class="button" type="submit" value="calculate">CALCULATE</button>
+            <br>
+
+
+            <p class="error">{{ message6 }}</p>
+            <br>
+
+        {%if BREAKEVEN%}
+        <p class="breakEven">Breakeven is {{BREAKEVEN}} units</p>
+        <p class="breakEven">In other words, you need to sell {{BREAKEVEN}} units to recoup all your costs and any unit you sell above that you will make profit</p>
+        {%endif%}
+
+        </form>
+
+
+
+    </body>
+
+{% endblock %}
