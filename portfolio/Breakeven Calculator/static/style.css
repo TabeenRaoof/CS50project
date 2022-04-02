@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+
+}
+
+
+
+.head {
+    display: block;
+    background-color: #36213E;
+    padding: 25px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    opacity: 80%;
+
+}
+
+.form {
+    display: block;
+    border-radius: 15px;
+    padding: 28px;
+    width: 400px;
+    background-color: #A9BCD0;
+    margin: auto;
+    opacity: 95%;
+}
+
+
+.inputTitle {
+    display: block;
+    font-weight: bold;
+    color: #8c686f;
+    text-align: center;
+    font-size: 18px;
+}
+
+input, text area {
+    display: block;
+    border-radius: 6px;
+    border-top: 10px;
+    width: 80%;
+    height: 22px;
+    background-color: #D8DBE2;
+    color: #023C40;
+    font-size: 10px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+
+}
+
+.error {
+    display: block;
+    color:red;
+    text-align: center;
+}
+
+
+.breakEven {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+::placeholder {
+    color: #A57982;
+    font-weight: normal;
+
+}
+
+
+.button {
+    display: block;
+    color: #28112B;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: #D8DBE2;
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    opacity:100%;
+}
+
+.button:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #36213E;
+    transition-delay: .14s;
+    cursor: pointer;
+
+}
