@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>TOTAL</th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+    {% for stock in stocks %}
+        <tr>
+            <td> {{ stock["symbol"] }} </td>
+            <td> {{ stock["name"] }} </td>
+            <td> {{ stock["SUM(shares)"] }} </td>
+            <td> {{ usd(stock["price"]) }} </td>
+            <td> {{ usd(stock["SUM(shares)"] * stock["price"]) }} </td>
+        </tr>
+    {% endfor %}
+
+
+        <tr>
+            <td>CASH</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>{{ usd(remainingCash) }}</td>
+        </tr>
+
+            <tr>
+            <td>Total Assets</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <strong> {{ usd(totalAssets) }}</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+       <td>Gain/Loss</td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td class="gl"> {{ usd(totalAssets-10000) }} </strong></td>
+    </tfoot>
+</table>
+
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+
+<p> The price of one share of {{ stock.name }} is {{ currency(stock.price) }} </p>
+
+{% endblock %}
