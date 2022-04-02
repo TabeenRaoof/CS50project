@@ -1,7 +1,8 @@
 # Tabeen Raoof Portfolio 
 <br>
 
-**[Project 1: Readability](https://github.com/TabeenRaoof/CS50project/tree/main/portfolio/Readability){:target="_blank"}**
+<a href="https://github.com/TabeenRaoof/CS50project/tree/main/portfolio/Readability" target="_blank">Project 1: Readability</a>
+[Project 1: Readability](https://github.com/TabeenRaoof/CS50project/tree/main/portfolio/Readability){:target="\_blank"}
 
 - Classifies a piece of text (paragraph, etc.) into 16 grades based on its difficulty level
 - The program determines the difficulty level based on numbers of letters in each word, numbers of words and number of sentences in the text. 
