@@ -52,3 +52,16 @@ Languages & Frameworks: Python; Flask; HTML; CSS
 ![](/images/BreakEven_Calculator.png){:target="_blank"}
 
 <br><br>
+
+
+**[Project 6: Stock Ratio Indicator](https://github.com/TabeenRaoof/tabeen_portfolio/tree/main/portfolio/Stock%20Ratio%20Indicator)**
+- This program will evaluate four fundamental stock ratios. It will allow the user to select between two types of operations: evaluate one stock or compare two different stocks. The user will then be prompted to select the stock ticker/s. Once the stocks are selected, the program will prompt the user to also select one of the four different ratios available. The the output is four years of data fro the selected ratio presented on a graph.
+
+Languages & Frameworks: Python; matplotlib; unit testing
+
+![](/images/stk_ratio1.png)
+
+![](/images/stk_ratio2.png)
+
+
+<br><br>
